@@ -3,3 +3,4 @@ python-multipart
 pillow
 matplotlib
 numpy
+uvicorn
