@@ -5,3 +5,5 @@ matplotlib
 numpy
 uvicorn
 gunicorn
+Flask
+Flask-Cors
