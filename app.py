@@ -19,7 +19,7 @@ app = Flask(__name__)
 # You can also use pretrained model from Keras
 # Check https://keras.io/applications/
 
-model =tf.keras.models.load_model("./saved_models/model_v3")
+model =tf.keras.models.load_model("saved_models/model_v3")
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 @app.route('/about', methods=['GET'])
